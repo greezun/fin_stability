@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/balance">
+
+    <fragment
+        android:id="@+id/calk"
+        android:name="com.msker.bat.ui.screens.calc.Calk"
+        android:label="fragment_calk"
+        tools:layout="@layout/fragment_calk" >
+        <action
+            android:id="@+id/action_calk"
+            app:destination="@id/calk"/>
+    </fragment>
+    <fragment
+        android:id="@+id/accumulation"
+        android:name="com.msker.bat.ui.screens.accumulation.Accumulation"
+        android:label="fragment_accumulation"
+        tools:layout="@layout/fragment_accumulation">
+        <action
+        android:id="@+id/action_accumulation"
+        app:destination="@id/accumulation"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/balance"
+        android:name="com.msker.bat.ui.screens.balance.Balance"
+        android:label="fragment_balance"
+        tools:layout="@layout/fragment_balance">
+
+        <action
+            android:id="@+id/action_balance"
+            app:destination="@id/balance"/>
+    </fragment>
+
+</navigation>

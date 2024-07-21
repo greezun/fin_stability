@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ФинСтабильность</string>
+    <string name="depo_sum">Сумма депозита</string>
+    <string name="text_label_1">Балланс</string>
+    <string name="text_label_2">Калькулятор</string>
+    <string name="text_label_3">Сбережения</string>
+</resources>
